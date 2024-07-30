@@ -139,6 +139,9 @@ option{
     line-height: 20px;
    
 }
+#abc:checked{
+    accent-color:#1877f2;
+}
 label{
     height: 36px ;
     width: 99px ;
