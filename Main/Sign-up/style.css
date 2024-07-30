@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0px;
+    background-color: #e4e6eb;
+     
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     
+}
+
+.fb-logo-img{
+    height: 6.817rem ;
+    width: 100% ;
+     
+    
+}
+.pannel{
+    height: 4.75rem ;
+    width: 27rem ;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px 1px 0px 1px solid #606770;
+    border-bottom: 1px solid #606770;
+   border-radius: 6px 6px 0px 0px ;
+
+     
+    margin-top: 15px;
+    
+} 
+#heading-pannel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 32px;
+    width: 400px;
+    background-color:#ffffff;
+    font-size: 25px;
+    color: #1c1e21;
+    font-weight: bolder;
+    
+}
+
+#heading-pannel p{
+    background-color:#ffffff;
+   color: #606770;
+   font-size: 15px;
+  
+}
+.pannel-bio{
+    height: 31.25rem;
+    width: 27rem  ;
+    background-color: #ffffff;
+    display: flex;
+     align-items: center;
+     flex-direction: column;
+     border-bottom: 1px solid #606770;  
+     border-radius: 5px;
+}
+.name-input{
+    
+    height: 49.33px;
+    width: 399px;
+    margin: 0px 16px 0px 16px;
+   display: flex;
+   background-color: #ffffff;
+}
+#name,#sur{
+    height: 20.33px;
+    width: 190.33px ;
+    padding: 11px;
+    margin-top: 18px;
+    border: 1px solid #606770;
+    background-color: #ffffff;
+    border-radius: 6px;
+      
+}
+#sur{
+   margin-left: 11px;
+}
+
+#phone,#password{
+    height: 39.33px;
+    width: 388.33px;
+    background-color: aquamarine;
+    margin: 0px 16px 0px 16px;
+    background-color: #ffffff;
+    border: 1px solid #606770;
+    border-radius: 6px;
+    margin-left: 15px;
+    margin-top: 25px;
+    padding-left: 11px;
+
+}
+ #password{
+    margin-top: 12px;
+}
+.birth-date-pannel,.Gender-pannel{
+    height: 20px;
+    width: 400px;
+    background-color: #ffffff;
+    margin: 12px 0px 4px;
+    color: #606770;
+    font-size: 12px;
+     
+}
+ 
+.birth,.gender-slection{
+    height: 36px;
+    width: 399px;
+    background-color:#ffffff;
+    
+    
+}
+#date,#month,#year{
+    height: 36px;
+    background-color: #ffffff;
+    width: 126px;
+    border: 1px solid #606770;
+    border-radius: 4px;
+    margin-left: 2px;
+    padding: 0px 20px 0px 5px;
+    
+    
+}
+option{
+    background-color: #ffffff;
+    color: #1c1e21;
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+   
+}
+label{
+    height: 36px ;
+    width: 99px ;
+    font-size: 15px;
+    background-color: #ffffff;
+    color: #1c1e21;
+    font-family:  Helvetica, Arial, sans-serif;
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 36px;
+    padding: 0 18px 0 10px;
+    border: 1px solid #606770;
+    border-radius: 4px;
+    margin-left: 2px;
+
+}
+.about,.about-more{
+    height: 29.48px;
+    width: 399px;
+    margin-top: 12px;
+    background-color: #ffffff;
+}
+#mesg{
+    height: 29.48px;
+    width: 399px;
+    font-size: 11px;
+    margin: 11px 0px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+
+.signu-up{
+    height: 56px ;
+    width: 400px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+#button{
+    height: 36px;
+    width: 194px;
+    font-size: 18px;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bolder;
+    padding: 0px 32px;
+}
+
+.account{
+    height: 20px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+a{
+   text-decoration: none;
+    color: #1877f2;
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    background-color: #ffffff;
+}
+
+ .footer{
+    margin-top: 35px;
+     background-color: #ffffff;
+     
+     
+  }
+  #ab{
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 10px;
+    color:  hsl(216, 2%, 41%);
+    background-color: #ffffff;
+  }  

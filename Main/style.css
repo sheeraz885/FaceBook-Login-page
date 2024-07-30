@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    padding: 20px;
+}
+
+.logo {
+    height: 5rem;
+    width: 16.875rem;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 24.75rem;
+    background-color: #ffffff;
+    border: 1px solid #ccd0d5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main p {
+    color: #1c1e21;
+    font-size: 1.51em;
+}
+
+#input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#in, #pass {
+    width: 100%;
+    height: 2.5rem;
+    background-color: #ffffff;
+    border: 1px solid #ccd0d5;
+    border-radius: 4px;
+    padding: 0 15px;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+#login {
+    width: 100%;
+    height: 3rem;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#login:hover {
+    background-color: #165db3;
+}
+
+.forgot {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.forgot a {
+    color: #1877f2;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ccd0d5;
+}
+
+.account {
+    display: flex;
+    justify-content: center;
+}
+
+.account a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #42b72a;
+    color: white;
+    font-size: 1.12rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
